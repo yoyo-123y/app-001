@@ -18,6 +18,10 @@ bool checkPalindrome(string word){
 }
 int main(){
     cout << "Enter the word = ";
+    //this is new words
+    // this is new line
+    //new branch
+    //return to main
     string word;
     cin >> word;
     cout << endl;
@@ -25,6 +29,6 @@ int main(){
     result?cout<<"it is palindrome":cout<<"it is not palindrome";
     cin.ignore();
     cout << "Press Enter to exit...";
-    cin.get(); // Waits for Enter
+    cin.get();
     return 0;
 }
