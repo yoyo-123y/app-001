@@ -25,6 +25,6 @@ int main(){
     result?cout<<"it is palindrome":cout<<"it is not palindrome";
     cin.ignore();
     cout << "Press Enter to exit...";
-    cin.get(); // Waits for Enter
+    cin.get();
     return 0;
 }
